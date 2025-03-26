@@ -1,2 +1,50 @@
-title: Welcome to Nyakio’s Blog 🌻
-theme: minima
+title: "Girly Genius Blog"
+description: "Notes, Tutorials, and Musings of a Rust + Blockchain Dev"
+url: "https://nyakiomaina.github.io/"  # Replace with your actual GitHub Pages URL
+baseurl: ""                         # Keep empty if it's a user/organization site
+
+# Using a built-in Jekyll theme:
+theme: jekyll-theme-cayman
+
+# Common plugins (all supported by GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/page:num/"
+
+# Syntax highlighting
+markdown: kramdown
+highlighter: rouge
+
+# Kramdown settings (optional)
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    line_numbers: true
+
+# Optional: per-post permalink structure
+collections:
+  posts:
+    permalink: /blog/:year/:month/:day/:title/
+    output: true
+
+# Some defaults for layout and SEO
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Include custom Sass/CSS settings
+sass:
+  style: compressed
+
+# Exclude unnecessary items from the build
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "README.md"

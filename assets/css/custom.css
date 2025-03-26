@@ -1,0 +1,49 @@
+/* Girly color scheme + playful typography */
+
+/* Headings: pinkish/pastel tone */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif; /* for an elegant vibe, if available */
+    color: #d81b60; /* bright pink */
+  }
+
+  /* Links: vibrant pink shade */
+  a {
+    color: #e91e63;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ad1457;
+    text-decoration: underline;
+  }
+
+  /* Body text: slightly larger, easy-reading font */
+  body {
+    font-family: 'Nunito', sans-serif; /* or any other fun, readable font */
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: #fff9fb; /* very light pink */
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Buttons or .btn classes if your theme uses them */
+  .btn {
+    background: #f06292;
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  .btn:hover {
+    background: #ec407a;
+  }
+
+  /* Code blocks: pastel pink background, subtle pink border */
+  .highlight {
+    background-color: #ffe4ec;
+    border: 1px solid #f8bbd0;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    overflow: auto;
+  }
